@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0A6F94C1EE44C670072640C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A6F94B1EE44C670072640C /* AppDelegate.swift */; };
+		F0A6F94E1EE44C670072640C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A6F94D1EE44C670072640C /* ViewController.swift */; };
+		F0A6F9511EE44C670072640C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A6F94F1EE44C670072640C /* Main.storyboard */; };
+		F0A6F9531EE44C670072640C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0A6F9521EE44C670072640C /* Assets.xcassets */; };
+		F0A6F9561EE44C670072640C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A6F9541EE44C670072640C /* LaunchScreen.storyboard */; };
+		F0A6F9611EE44C670072640C /* Ejer_04_Radio_ButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A6F9601EE44C670072640C /* Ejer_04_Radio_ButtonTests.swift */; };
+		F0A6F96C1EE44C670072640C /* Ejer_04_Radio_ButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A6F96B1EE44C670072640C /* Ejer_04_Radio_ButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0A6F95D1EE44C670072640C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0A6F9401EE44C660072640C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0A6F9471EE44C660072640C;
+			remoteInfo = Ejer_04_Radio_Button;
+		};
+		F0A6F9681EE44C670072640C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0A6F9401EE44C660072640C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0A6F9471EE44C660072640C;
+			remoteInfo = Ejer_04_Radio_Button;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0A6F9481EE44C670072640C /* Ejer_04_Radio_Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ejer_04_Radio_Button.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A6F94B1EE44C670072640C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0A6F94D1EE44C670072640C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0A6F9501EE44C670072640C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0A6F9521EE44C670072640C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0A6F9551EE44C670072640C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0A6F9571EE44C670072640C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A6F95C1EE44C670072640C /* Ejer_04_Radio_ButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ejer_04_Radio_ButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A6F9601EE44C670072640C /* Ejer_04_Radio_ButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejer_04_Radio_ButtonTests.swift; sourceTree = "<group>"; };
+		F0A6F9621EE44C670072640C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A6F9671EE44C670072640C /* Ejer_04_Radio_ButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ejer_04_Radio_ButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0A6F96B1EE44C670072640C /* Ejer_04_Radio_ButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejer_04_Radio_ButtonUITests.swift; sourceTree = "<group>"; };
+		F0A6F96D1EE44C670072640C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0A6F9451EE44C660072640C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A6F9591EE44C670072640C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A6F9641EE44C670072640C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0A6F93F1EE44C660072640C = {
+			isa = PBXGroup;
+			children = (
+				F0A6F94A1EE44C670072640C /* Ejer_04_Radio_Button */,
+				F0A6F95F1EE44C670072640C /* Ejer_04_Radio_ButtonTests */,
+				F0A6F96A1EE44C670072640C /* Ejer_04_Radio_ButtonUITests */,
+				F0A6F9491EE44C670072640C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0A6F9491EE44C670072640C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0A6F9481EE44C670072640C /* Ejer_04_Radio_Button.app */,
+				F0A6F95C1EE44C670072640C /* Ejer_04_Radio_ButtonTests.xctest */,
+				F0A6F9671EE44C670072640C /* Ejer_04_Radio_ButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0A6F94A1EE44C670072640C /* Ejer_04_Radio_Button */ = {
+			isa = PBXGroup;
+			children = (
+				F0A6F94B1EE44C670072640C /* AppDelegate.swift */,
+				F0A6F94D1EE44C670072640C /* ViewController.swift */,
+				F0A6F94F1EE44C670072640C /* Main.storyboard */,
+				F0A6F9521EE44C670072640C /* Assets.xcassets */,
+				F0A6F9541EE44C670072640C /* LaunchScreen.storyboard */,
+				F0A6F9571EE44C670072640C /* Info.plist */,
+			);
+			path = Ejer_04_Radio_Button;
+			sourceTree = "<group>";
+		};
+		F0A6F95F1EE44C670072640C /* Ejer_04_Radio_ButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0A6F9601EE44C670072640C /* Ejer_04_Radio_ButtonTests.swift */,
+				F0A6F9621EE44C670072640C /* Info.plist */,
+			);
+			path = Ejer_04_Radio_ButtonTests;
+			sourceTree = "<group>";
+		};
+		F0A6F96A1EE44C670072640C /* Ejer_04_Radio_ButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0A6F96B1EE44C670072640C /* Ejer_04_Radio_ButtonUITests.swift */,
+				F0A6F96D1EE44C670072640C /* Info.plist */,
+			);
+			path = Ejer_04_Radio_ButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0A6F9471EE44C660072640C /* Ejer_04_Radio_Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A6F9701EE44C670072640C /* Build configuration list for PBXNativeTarget "Ejer_04_Radio_Button" */;
+			buildPhases = (
+				F0A6F9441EE44C660072640C /* Sources */,
+				F0A6F9451EE44C660072640C /* Frameworks */,
+				F0A6F9461EE44C660072640C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ejer_04_Radio_Button;
+			productName = Ejer_04_Radio_Button;
+			productReference = F0A6F9481EE44C670072640C /* Ejer_04_Radio_Button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0A6F95B1EE44C670072640C /* Ejer_04_Radio_ButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A6F9731EE44C670072640C /* Build configuration list for PBXNativeTarget "Ejer_04_Radio_ButtonTests" */;
+			buildPhases = (
+				F0A6F9581EE44C670072640C /* Sources */,
+				F0A6F9591EE44C670072640C /* Frameworks */,
+				F0A6F95A1EE44C670072640C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0A6F95E1EE44C670072640C /* PBXTargetDependency */,
+			);
+			name = Ejer_04_Radio_ButtonTests;
+			productName = Ejer_04_Radio_ButtonTests;
+			productReference = F0A6F95C1EE44C670072640C /* Ejer_04_Radio_ButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0A6F9661EE44C670072640C /* Ejer_04_Radio_ButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A6F9761EE44C670072640C /* Build configuration list for PBXNativeTarget "Ejer_04_Radio_ButtonUITests" */;
+			buildPhases = (
+				F0A6F9631EE44C670072640C /* Sources */,
+				F0A6F9641EE44C670072640C /* Frameworks */,
+				F0A6F9651EE44C670072640C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0A6F9691EE44C670072640C /* PBXTargetDependency */,
+			);
+			name = Ejer_04_Radio_ButtonUITests;
+			productName = Ejer_04_Radio_ButtonUITests;
+			productReference = F0A6F9671EE44C670072640C /* Ejer_04_Radio_ButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0A6F9401EE44C660072640C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luis José Sánchez Carrasco";
+				TargetAttributes = {
+					F0A6F9471EE44C660072640C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = D7ACHR9XMP;
+						ProvisioningStyle = Automatic;
+					};
+					F0A6F95B1EE44C670072640C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0A6F9471EE44C660072640C;
+					};
+					F0A6F9661EE44C670072640C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0A6F9471EE44C660072640C;
+					};
+				};
+			};
+			buildConfigurationList = F0A6F9431EE44C660072640C /* Build configuration list for PBXProject "Ejer_04_Radio_Button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0A6F93F1EE44C660072640C;
+			productRefGroup = F0A6F9491EE44C670072640C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0A6F9471EE44C660072640C /* Ejer_04_Radio_Button */,
+				F0A6F95B1EE44C670072640C /* Ejer_04_Radio_ButtonTests */,
+				F0A6F9661EE44C670072640C /* Ejer_04_Radio_ButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0A6F9461EE44C660072640C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A6F9561EE44C670072640C /* LaunchScreen.storyboard in Resources */,
+				F0A6F9531EE44C670072640C /* Assets.xcassets in Resources */,
+				F0A6F9511EE44C670072640C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A6F95A1EE44C670072640C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A6F9651EE44C670072640C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0A6F9441EE44C660072640C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A6F94E1EE44C670072640C /* ViewController.swift in Sources */,
+				F0A6F94C1EE44C670072640C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A6F9581EE44C670072640C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A6F9611EE44C670072640C /* Ejer_04_Radio_ButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A6F9631EE44C670072640C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A6F96C1EE44C670072640C /* Ejer_04_Radio_ButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0A6F95E1EE44C670072640C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0A6F9471EE44C660072640C /* Ejer_04_Radio_Button */;
+			targetProxy = F0A6F95D1EE44C670072640C /* PBXContainerItemProxy */;
+		};
+		F0A6F9691EE44C670072640C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0A6F9471EE44C660072640C /* Ejer_04_Radio_Button */;
+			targetProxy = F0A6F9681EE44C670072640C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0A6F94F1EE44C670072640C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0A6F9501EE44C670072640C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0A6F9541EE44C670072640C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0A6F9551EE44C670072640C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0A6F96E1EE44C670072640C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0A6F96F1EE44C670072640C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0A6F9711EE44C670072640C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D7ACHR9XMP;
+				INFOPLIST_FILE = Ejer_04_Radio_Button/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ghf.Ejer-04-Radio-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F0A6F9721EE44C670072640C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D7ACHR9XMP;
+				INFOPLIST_FILE = Ejer_04_Radio_Button/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ghf.Ejer-04-Radio-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F0A6F9741EE44C670072640C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Ejer_04_Radio_ButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ghf.Ejer-04-Radio-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ejer_04_Radio_Button.app/Ejer_04_Radio_Button";
+			};
+			name = Debug;
+		};
+		F0A6F9751EE44C670072640C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Ejer_04_Radio_ButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ghf.Ejer-04-Radio-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ejer_04_Radio_Button.app/Ejer_04_Radio_Button";
+			};
+			name = Release;
+		};
+		F0A6F9771EE44C670072640C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Ejer_04_Radio_ButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ghf.Ejer-04-Radio-ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ejer_04_Radio_Button;
+			};
+			name = Debug;
+		};
+		F0A6F9781EE44C670072640C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Ejer_04_Radio_ButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ghf.Ejer-04-Radio-ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Ejer_04_Radio_Button;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0A6F9431EE44C660072640C /* Build configuration list for PBXProject "Ejer_04_Radio_Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A6F96E1EE44C670072640C /* Debug */,
+				F0A6F96F1EE44C670072640C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A6F9701EE44C670072640C /* Build configuration list for PBXNativeTarget "Ejer_04_Radio_Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A6F9711EE44C670072640C /* Debug */,
+				F0A6F9721EE44C670072640C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0A6F9731EE44C670072640C /* Build configuration list for PBXNativeTarget "Ejer_04_Radio_ButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A6F9741EE44C670072640C /* Debug */,
+				F0A6F9751EE44C670072640C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0A6F9761EE44C670072640C /* Build configuration list for PBXNativeTarget "Ejer_04_Radio_ButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A6F9771EE44C670072640C /* Debug */,
+				F0A6F9781EE44C670072640C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0A6F9401EE44C660072640C /* Project object */;
+}
